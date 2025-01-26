@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3|2025年|愿你与爱同行|和幸福相伴|新年快乐！|❤|#rectangle|');
+      S.UI.simulate('|#countdown 3|დ 2025年 ఇ|᭄愿你与爱同行ꦿ|ঞ和幸福相伴ဢ|ꦼ新年快乐！ఌ|❤|❥𝓗𝓐𝓟𝓟𝓨 𝓝𝓔𝓦 𝓨𝓔𝓐𝓡.|');
     }
 
     S.Drawing.loop(function () {
