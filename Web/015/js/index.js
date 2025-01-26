@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||某某某|我们|在一起吧|❤|#rectangle|');
+      S.UI.simulate('|#countdown 3|2025年|愿你与爱同行|和幸福相伴|新年快乐！|❤|#rectangle|');
     }
 
     S.Drawing.loop(function () {
